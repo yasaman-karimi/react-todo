@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Build output
+/build
+/coverage
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+
+# Jest test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Ignore anything related to yarn
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local config files
+*.local
